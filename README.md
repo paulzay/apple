@@ -37,7 +37,7 @@ $ cd apple
 👤 **Paul Ogolla**
 
 - [Github](https://github.com/paulzay)
-- [Twitter](https://twitter.com/_paulzay_)
+- <img width="40" valign="middle" src="https://storage.googleapis.com/gregsramblings-downloads/Twitter_Logo_Blue.png">[Twitter](https://twitter.com/_paulzay_)
 - [Linkedin](https://linkedin.com/in/paulogolla)
 
 ## Show your support
