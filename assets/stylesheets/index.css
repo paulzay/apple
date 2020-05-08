@@ -1,0 +1,72 @@
+@import "./reset.css";
+
+body {
+  background-color: #fff;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
+}
+/*
+.hero-section {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: calc(100vh - 95px);
+  background-image: url(/assets/img/center_image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+.after-hero {
+  width: 100%;
+  margin-top: 10px;
+}
+.after-hero ul {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+.after-hero ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.after-hero ul li a img {
+  width: 321px;
+  height: 200px;
+}
+
+footer {
+  width: 100%;
+  color: #6e6e6e;
+  font-size: 10px;
+  padding-top: 30px;
+  bottom: 0;
+}
+.foot-left {
+  float: left;
+  padding-left: 150px;
+}
+.foot-left p {
+  padding-bottom: 20px;
+}
+
+.foot-right {
+  float: right;
+  padding-right: 150px;
+}
+.foot-right ul li {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: #08c;
+}
+.foot-right img {
+  width: 15px;
+  height: 15px;
+  vertical-align: -4px;
+}
