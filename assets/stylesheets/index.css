@@ -6,21 +6,79 @@ body {
     sans-serif;
 }
 /*
-.hero-section {
-  position: absolute;
-  overflow: hidden;
-  width: 100%;
-  height: calc(100vh - 95px);
-  background-image: url(/assets/img/center_image.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  width: 900px;
+  height: 40px;
+  margin: 80px auto 40px auto;
+  background-image: linear-gradient(
+    #4b4b4b,
+    #8a8a8a 1%,
+    #5c5c5c 1%,
+    #7c7c7c 50%,
+    #636363 50%,
+    #3b3b3b 100%
+  );
 }
 */
+/*
+nav {
+  background-color: red;
+  margin-top: 80px;
+  width: 65%;
+  background: #555;
+  border-radius: 4px;
+}
+
+nav ul {
+  display: block;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+*/
+.hero-section {
+  background-image: url(/assets/img/center_image.jpg);
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  height: 60%;
+}
+
+.hero-text {
+  text-align: center;
+  padding: 0 200px;
+  color: #fff;
+}
+
+.hero-text h1 {
+  font-size: 75px;
+  font-weight: 100;
+}
+
+.hero-text h2 {
+  font-size: 30px;
+}
+
+.hero-text p {
+  font-size: 20px;
+}
+.hero-text img {
+  vertical-align: middle;
+}
+/* Sidebar styling */
+
 .after-hero {
   width: 100%;
   margin-top: 10px;
 }
+
 .after-hero ul {
   display: block;
   margin: 0 auto;
@@ -32,10 +90,18 @@ body {
   list-style: none;
 }
 
+.foot-right img {
+  width: 15px;
+  height: 15px;
+  vertical-align: -4px;
+}
+
 .after-hero ul li a img {
   width: 321px;
   height: 200px;
 }
+
+/* Footer stying */
 
 footer {
   width: 100%;
@@ -44,10 +110,12 @@ footer {
   padding-top: 30px;
   bottom: 0;
 }
+
 .foot-left {
   float: left;
   padding-left: 150px;
 }
+
 .foot-left p {
   padding-bottom: 20px;
 }
@@ -56,17 +124,14 @@ footer {
   float: right;
   padding-right: 150px;
 }
+
 .foot-right ul li {
   display: inline-block;
   list-style: none;
   text-decoration: none;
 }
+
 a {
   text-decoration: none;
   color: #08c;
-}
-.foot-right img {
-  width: 15px;
-  height: 15px;
-  vertical-align: -4px;
 }
