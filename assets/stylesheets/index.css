@@ -51,7 +51,7 @@ nav svg {
 }
 
 .hero-section {
-  background: url(/assets/img/center_image.jpg);
+  background: url(../img/center_image.jpg);
   overflow: hidden;
   width: 100%;
   background-position: 0 100%;
