@@ -85,34 +85,22 @@ nav svg {
 
 /* Sidebar styling */
 
-.after-hero {
-  width: 100%;
-  margin-top: 10px;
+.after-hero ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 }
-
-.after-hero ul {
-  display: block;
-  margin: 0 auto;
-  width: fit-content;
+.after-hero img{
+  width: 325px;
 }
-
-.after-hero ul li {
-  display: inline-block;
-  list-style: none;
-}
+/* Footer stying */
 
 .foot-right img {
   width: 15px;
   height: 15px;
   vertical-align: -4px;
 }
-
-.after-hero ul li a img {
-  width: 321px;
-  height: 200px;
-}
-
-/* Footer stying */
 
 footer {
   width: 100%;
