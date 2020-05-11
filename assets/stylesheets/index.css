@@ -6,29 +6,26 @@ body {
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: stretch;
-  width: 65%;
+  width: 80%;
   border-radius: 4px;
   height: 40px;
   margin: 80px auto 40px auto;
-  background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); 
+  background: linear-gradient(to bottom, rgba(149, 149, 149, 1) 0%, rgba(13, 13, 13, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(10, 10, 10, 1) 53%, rgba(78, 78, 78, 1) 76%, rgba(56, 56, 56, 1) 87%, rgba(27, 27, 27, 1) 100%);
 }
 
 nav ul {
-  display: block;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+  align-items: center;
 }
 
-nav ul li {
-  display: inline-block;
-  list-style: none;
-  margin-top: 10px;
-  margin-left: 40px;
-  vertical-align: middle;
-  border-left: #fff;
+.nav-item {
+  border-left: 1px solid rgb(122, 118, 118);
+  line-height: 2;
+  text-align: center;
+  width: 100%;
+  height: 100%;
 }
 
 a {
@@ -47,14 +44,17 @@ nav svg {
 }
 
 .searchbar input {
+  width: 100px;
   border-radius: 40px;
-  background-color: #575757;
+  border-radius: 1px solid transparent;
+  background: linear-gradient(to bottom, rgba(149, 149, 149, 1) 0%, rgba(13, 13, 13, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(10, 10, 10, 1) 53%, rgba(78, 78, 78, 1) 76%, rgba(56, 56, 56, 1) 87%, rgba(27, 27, 27, 1) 100%);
 }
 
 .hero-section {
-  background-image: url(/assets/img/center_image.jpg);
+  background: url(/assets/img/center_image.jpg);
   overflow: hidden;
-  background-position: center;
+  width: 100%;
+  background-position: 0 100%;
   background-size: cover;
   height: 60%;
 }
@@ -85,15 +85,18 @@ nav svg {
 
 /* Sidebar styling */
 
-.after-hero ul{
+.after-hero ul {
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
 }
-.after-hero img{
+
+.after-hero img {
   width: 325px;
 }
+
 /* Footer stying */
 
 .foot-right img {
