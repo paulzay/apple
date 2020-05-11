@@ -2,8 +2,7 @@
 
 body {
   background-color: #fff;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
-    sans-serif;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
 }
 
 nav {
@@ -11,22 +10,11 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: stretch;
-  width: 900px;
-  height: 40px;
-  margin: 80px auto 40px auto;
-  background-image: linear-gradient(#4b4b4b,
-      #8a8a8a 1%,
-      #5c5c5c 1%,
-      #7c7c7c 50%,
-      #636363 50%,
-      #3b3b3b 100%);
-}
-
-
-nav {
-  margin-top: 80px;
   width: 65%;
   border-radius: 4px;
+  height: 40px;
+  margin: 80px auto 40px auto;
+  background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 46%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%); 
 }
 
 nav ul {
@@ -40,6 +28,12 @@ nav ul li {
   margin-top: 10px;
   margin-left: 40px;
   vertical-align: middle;
+  border-left: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #08c;
 }
 
 nav ul li a {
@@ -69,6 +63,7 @@ nav svg {
   text-align: center;
   padding: 0 200px;
   color: #fff;
+  margin-bottom: 200px;
 }
 
 .hero-text h1 {
@@ -145,9 +140,4 @@ footer {
   display: inline-block;
   list-style: none;
   text-decoration: none;
-}
-
-a {
-  text-decoration: none;
-  color: #08c;
 }
