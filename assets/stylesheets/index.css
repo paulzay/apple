@@ -8,7 +8,7 @@ nav {
   border-radius: 4px;
   height: 40px;
   margin: 80px auto 40px auto;
-  background: linear-gradient(to bottom, rgba(149, 149, 149, 1) 0%, rgba(13, 13, 13, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(10, 10, 10, 1) 53%, rgba(78, 78, 78, 1) 76%, rgba(56, 56, 56, 1) 87%, rgba(27, 27, 27, 1) 100%);
+  background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgb(71, 70, 70) 47%,rgba(142,142,142,1) 92%); 
 }
 
 nav ul {
@@ -45,36 +45,42 @@ nav svg {
   width: 100px;
   border-radius: 40px;
   border-radius: 1px solid transparent;
-  background: linear-gradient(to bottom, rgba(149, 149, 149, 1) 0%, rgba(13, 13, 13, 1) 46%, rgba(1, 1, 1, 1) 50%, rgba(10, 10, 10, 1) 53%, rgba(78, 78, 78, 1) 76%, rgba(56, 56, 56, 1) 87%, rgba(27, 27, 27, 1) 100%);
+  background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgb(71, 70, 70) 47%,rgba(142,142,142,1) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
 }
 
 .hero-section {
   background: url(../img/center_image.jpg);
   overflow: hidden;
   width: 100%;
-  background-position: 0 100%;
+  background-position: 0 110%;
   background-size: cover;
   height: 60%;
 }
 
 .hero-text {
+  margin-top: 60px;
   text-align: center;
   padding: 0 200px;
   color: #fff;
   margin-bottom: 200px;
+  
 }
 
-.hero-text h1 {
+.hero-text .p1 {
   font-size: 75px;
+  line-height: 60px;
   font-weight: 100;
 }
 
-.hero-text h2 {
+.hero-text .p2 {
   font-size: 30px;
+  padding-top: 30px;
 }
 
 .hero-text p {
   font-size: 20px;
+  padding-top: 20px;
 }
 
 .hero-text img {
@@ -89,6 +95,7 @@ nav svg {
   justify-content: center;
   flex-wrap: wrap;
   width: 100%;
+  margin-top:-70px;
 }
 
 .after-hero img {
