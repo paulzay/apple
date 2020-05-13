@@ -8,7 +8,7 @@ nav {
   border-radius: 4px;
   height: 40px;
   margin: 80px auto 40px auto;
-  background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgb(71, 70, 70) 47%,rgba(142,142,142,1) 92%); 
+  background: linear-gradient(to bottom, rgba(125, 126, 125, 1) 0%, rgb(71, 70, 70) 47%, rgba(142, 142, 142, 1) 92%);
 }
 
 nav ul {
@@ -45,8 +45,7 @@ nav svg {
   width: 100px;
   border-radius: 40px;
   border-radius: 1px solid transparent;
-  background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgb(71, 70, 70) 47%,rgba(142,142,142,1) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-
+  background: linear-gradient(to bottom, rgba(125, 126, 125, 1) 0%, rgb(71, 70, 70) 47%, rgba(142, 142, 142, 1) 92%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 .hero-section {
@@ -64,7 +63,6 @@ nav svg {
   padding: 0 200px;
   color: #fff;
   margin-bottom: 200px;
-  
 }
 
 .hero-text .p1 {
@@ -93,13 +91,30 @@ nav svg {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  flex-wrap: wrap;
   width: 100%;
-  margin-top:-70px;
 }
 
-.after-hero img {
-  width: 325px;
+.after-hero .imgs {
+  width: 25%;
+  height: 200px;
+  display: inline-block;
+  margin-top: -70px;
+}
+
+.img1 {
+  background: url(../img/apple5.jpg);
+}
+
+.img2 {
+  background: url(../img/iphone5c.jpg);
+}
+
+.img3 {
+  background: url(../img/apple_30_years.jpg);
+}
+
+.img4 {
+  background: url(../img/apple_supplier_responsibility.jpg);
 }
 
 /* Footer stying */
